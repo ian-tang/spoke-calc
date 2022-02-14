@@ -29,7 +29,7 @@ def main_interactive():
         input("Enter lacing pattern, between 1 and 4. Enter 0 for radial lacing: "))
     spoke_length = calc_spoke_length(
         flange_diameter, center_flange_distance, effective_rim_diameter, spoke_count, cross)
-    print("Spoke length is {:.1f}".format(spoke_length))
+    print("Spoke length is {:.1f}mm".format(spoke_length))
 
 
 def calc_spoke_length(fd, cfd, erd, spokes, cross):
